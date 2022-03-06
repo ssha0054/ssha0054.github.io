@@ -74,7 +74,6 @@ nav a:hover {
     border: solid 2px #151515;
     border-radius: 8px;
     padding: 1.5em;
-
 }
 
 .about-info-container {
@@ -109,6 +108,13 @@ nav a:hover {
 }
 
 /* Interests and Hobbies styling */
+.interests-container {
+    background-color: #151515;
+    border: solid 2px #151515;
+    border-radius: 8px;
+    padding: 1.5em;
+}
+
 .interests-heading {
     margin-top: 60px;
 }
@@ -153,7 +159,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 1.5em;
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 li {
