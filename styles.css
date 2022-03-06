@@ -8,6 +8,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     background-color: #1b1b1b;
@@ -17,7 +21,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    padding-top: 90px;
+    padding-top: 5px;
 }
 
 main > * {
@@ -64,13 +68,8 @@ nav a:hover {
 }
 
 /* About section styling */
-.about-container {
-    gap: 40px;
-    min-height: 100vh;
-}
-
-.about-list {
-    margin-top: 60px;
+.about-info-container {
+    gap: 20px;
 }
 
 .about-me {
@@ -95,7 +94,12 @@ nav a:hover {
     height: auto;
 }
 
-.interests{
+/* Interests and Hobbies styling */
+.interests-heading {
+    margin-top: 60px;
+}
+
+.interests {
     display: flex;
 }
 
@@ -108,6 +112,10 @@ nav a:hover {
     padding-left: 20px;
 }
 
+/* Tech skills section styling */
+.tech-skills-heading {
+    margin-top: 60px;
+}
 
 /* Font Styling */
 h2 {
