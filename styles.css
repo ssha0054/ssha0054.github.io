@@ -95,6 +95,19 @@ nav a:hover {
     height: auto;
 }
 
+.interests{
+    display: flex;
+}
+
+.tech-interests {
+    flex: 50px;
+}
+
+.hobbies {
+    flex: 50px;
+    padding-left: 20px;
+}
+
 
 /* Font Styling */
 h2 {
@@ -102,7 +115,7 @@ h2 {
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 p {
