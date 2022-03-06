@@ -61,7 +61,7 @@ nav {
     text-decoration: none;
     font-size: 25px;
     flex: 1;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 nav a:hover {
@@ -90,6 +90,10 @@ nav a:hover {
 .about-text {
     /* flex: 70px; */
     width: 75%;
+}
+
+.about-me-text {
+    padding-top: 10px;
 }
 
 .about-image {
@@ -136,9 +140,13 @@ h3 {
     font-size: 30px;
 }
 
+h4 {
+    font-size: 25px;
+}
+
 p {
-    font-size: 20px;
-    line-height: 2.5rem;
+    font-size: 15px;
+    line-height: 2rem;
 }
 
 ul {
