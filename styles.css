@@ -40,7 +40,8 @@ main > * {
 
 /* Navigation bar styling */
 nav {
-    background-color: #1b1b1b;
+    /* background-color: #1b1b1b; */
+    background-color: #151515;
     position: fixed;
     justify-content: center;
     align-items: center;
@@ -68,6 +69,14 @@ nav a:hover {
 }
 
 /* About section styling */
+.about-container {
+    background-color: #151515;
+    border: solid 2px #151515;
+    border-radius: 8px;
+    padding: 1.5em;
+
+}
+
 .about-info-container {
     gap: 20px;
 }
@@ -92,6 +101,7 @@ nav a:hover {
 .image {
     width: 80%;
     height: auto;
+    border-radius: 8px;
 }
 
 /* Interests and Hobbies styling */
