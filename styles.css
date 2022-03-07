@@ -8,6 +8,35 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* Heading Styling */
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding-top: 5px;
+}
+
+li {
+    margin-left: 1em;
+    font-size: 20px;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -145,7 +174,7 @@ nav a:hover {
 }
 
 .tech-skills {
-    margin-top: 10px;
+    margin-top: -5px;
     justify-content: center;
     gap: 10px;
     background-color: #151515;
@@ -153,7 +182,7 @@ nav a:hover {
     border-radius: 8px;
     padding: 1.5em;
     font-size: 20px;
-  }
+}
 
 .tech-skills-row-1 {
     justify-content: center;
@@ -168,14 +197,10 @@ nav a:hover {
     padding-top: 10px;
 }
 
-/* Projects styling stuff */
+/* Projects section styling */
 .projects-heading {
     margin-top: 50px;
     padding-bottom: 20px;
-    /* position: relative;
-    top: -100px; */
-
-    /* margin-bottom: ; */
 }
 
 #projects {
@@ -199,7 +224,6 @@ nav a:hover {
     gap: 1em;
 }
 
-/* Fix this */
 .project-image {
     max-width: 100%;
     height: auto;
@@ -222,36 +246,54 @@ nav a:hover {
     gap: 0.5em;
 }
 
-/* Font Styling */
-h2 {
-    font-size: 36px;
+/* Contact section styling */
+.contacts-heading {
+    margin-top: 30px;
+    padding-bottom: 20px;
 }
 
-h3 {
-    font-size: 30px;
-}
-
-h4 {
-    font-size: 25px;
-}
-
-h5 {
+.contacts-container {
+    background-color: #151515;
+    border: solid 2px #151515;
+    border-radius: 8px;
+    padding: 1.5em;
     font-size: 20px;
 }
 
-/* p {
-    font-size: 15px;
-    line-height: 2rem;
-} */
-
-ul {
+.contacts {
     display: flex;
-    flex-direction: column;
-    gap: 1.5em;
-    padding-top: 5px;
+    padding-top: 5%;
 }
 
-li {
-    margin-left: 1em;
-    font-size: 20px;
+.contact-icons-container {
+    background-color: #151515;
+    border: solid 2px #151515;
+    border-radius: 8px;
+}
+
+.contact-icon-1 {
+    flex: 33px;
+}
+
+.contact-icon-2 {
+    flex: 33px;
+}
+
+.contact-icon-3 {
+    flex: 33px;
+}
+
+.contact-image {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.icon-button {
+    border: none;
+    background-color: transparent;
+}
+
+.icon-button:hover {
+    opacity: 0.2;
 }
