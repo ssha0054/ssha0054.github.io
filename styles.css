@@ -189,13 +189,23 @@ nav a:hover {
     justify-content: center;
     gap: 70px;
     flex-wrap: wrap;
+    font-size: 22px;
 }
 
 .tech-skills-row-2 {
     justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    padding-top: 14px;
+    font-size: 20px;
+}
+
+.tech-skills-row-3 {
+    justify-content: center;
     gap: 70px;
     flex-wrap: wrap;
-    padding-top: 10px;
+    padding-top: 14px;
+    font-size: 20px;
 }
 
 /* Projects section styling */
@@ -231,6 +241,10 @@ nav a:hover {
     border-radius: 8px;
     opacity: 1;
     transition: opacity 0.5s;
+}
+
+.project-image:hover {
+    opacity: 0.2;
 }
   
 .project-desc {
