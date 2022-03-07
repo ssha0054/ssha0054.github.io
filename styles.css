@@ -89,6 +89,8 @@ nav a:hover {
 .about-text {
     /* flex: 70px; */
     width: 75%;
+    font-size: 15px;
+    line-height: 2rem;
 }
 
 .about-me-title {
@@ -150,6 +152,7 @@ nav a:hover {
     border: solid 2px #151515;
     border-radius: 8px;
     padding: 1.5em;
+    font-size: 20px;
   }
 
 .tech-skills-row-1 {
@@ -165,6 +168,60 @@ nav a:hover {
     padding-top: 10px;
 }
 
+/* Projects styling stuff */
+.projects-heading {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    /* position: relative;
+    top: -100px; */
+
+    /* margin-bottom: ; */
+}
+
+#projects {
+    gap: 20px;
+    align-items: center;
+}
+  
+.projects-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-auto-rows: auto;
+    margin-top: 5px;
+}
+
+.projects-container {
+    background-color: #151515;
+    border: solid 2px #151515;
+    border-radius: 8px;
+    padding: 1em;
+    gap: 1em;
+}
+
+/* Fix this */
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+  
+.project-desc {
+    font-size: 16px;
+}
+
+.project-hashtags {
+    font-size: 14px;
+    font-style: italic;
+}
+  
+.text-container {
+    color: white;
+    gap: 0.5em;
+}
+
 /* Font Styling */
 h2 {
     font-size: 36px;
@@ -178,10 +235,14 @@ h4 {
     font-size: 25px;
 }
 
-p {
+h5 {
+    font-size: 20px;
+}
+
+/* p {
     font-size: 15px;
     line-height: 2rem;
-}
+} */
 
 ul {
     display: flex;
